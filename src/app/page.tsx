@@ -3,7 +3,7 @@ import './style.css';
 
 import Image from 'next/image';
 import img from '../../public/chat.jpg';
-
+ 
 export default function Home() {
   return (
     <> 
