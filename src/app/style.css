@@ -1,7 +1,7 @@
 .chat{
     color: aqua;
     height: 100vh;
-    background-image: linear-gradient(rgb(255,255,255),rgb(109,39,239));
+    background-color: white;
 }
 
 .message{
@@ -43,3 +43,6 @@
     border-radius: 6px;
     height: 34px;
 }
+.send {
+    @apply text-center max-w-screen-lg mx-auto mt-4;
+  }
